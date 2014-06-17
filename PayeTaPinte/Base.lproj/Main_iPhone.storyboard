@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GI0-e2-Mwd"/>
+                        <viewControllerLayoutGuide type="bottom" id="hLY-Ux-Wnq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vga-Sm-KML">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.52169921119999996" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LfM-sb-6OU">
+                                <rect key="frame" x="0.0" y="0.0" width="330" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52169921120964791" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vga-Sm-KML" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="BFA-Ec-xfY"/>
+                            <constraint firstAttribute="trailing" secondItem="vga-Sm-KML" secondAttribute="trailing" id="SnY-hV-onu"/>
+                            <constraint firstItem="hLY-Ux-Wnq" firstAttribute="top" secondItem="vga-Sm-KML" secondAttribute="bottom" id="epg-1Q-F6E"/>
+                            <constraint firstAttribute="trailing" secondItem="vga-Sm-KML" secondAttribute="trailing" id="fXr-cg-nYE"/>
+                            <constraint firstItem="vga-Sm-KML" firstAttribute="top" secondItem="GI0-e2-Mwd" secondAttribute="bottom" id="la8-V7-Uv0"/>
+                            <constraint firstItem="hLY-Ux-Wnq" firstAttribute="top" secondItem="vga-Sm-KML" secondAttribute="bottom" id="pCN-6C-Wfl"/>
+                            <constraint firstItem="vga-Sm-KML" firstAttribute="top" secondItem="GI0-e2-Mwd" secondAttribute="bottom" id="qtZ-po-f9s"/>
+                            <constraint firstItem="vga-Sm-KML" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ywt-E8-K32"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="viewWeb" destination="vga-Sm-KML" id="Reu-f4-8Ii"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="560"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

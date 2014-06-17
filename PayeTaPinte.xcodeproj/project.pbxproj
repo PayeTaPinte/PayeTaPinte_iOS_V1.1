@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23CAC4F19348DFD00CF4033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC4E19348DFD00CF4033 /* Foundation.framework */; };
+		D23CAC5119348DFD00CF4033 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC5019348DFD00CF4033 /* CoreGraphics.framework */; };
+		D23CAC5319348DFD00CF4033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC5219348DFD00CF4033 /* UIKit.framework */; };
+		D23CAC5919348DFD00CF4033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23CAC5719348DFD00CF4033 /* InfoPlist.strings */; };
+		D23CAC5B19348DFD00CF4033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23CAC5A19348DFD00CF4033 /* main.m */; };
+		D23CAC5F19348DFD00CF4033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23CAC5E19348DFD00CF4033 /* AppDelegate.m */; };
+		D23CAC6219348DFD00CF4033 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23CAC6019348DFD00CF4033 /* Main_iPhone.storyboard */; };
+		D23CAC6519348DFD00CF4033 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23CAC6319348DFD00CF4033 /* Main_iPad.storyboard */; };
+		D23CAC6819348DFD00CF4033 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23CAC6719348DFD00CF4033 /* ViewController.m */; };
+		D23CAC6A19348DFD00CF4033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23CAC6919348DFD00CF4033 /* Images.xcassets */; };
+		D23CAC7119348DFD00CF4033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC7019348DFD00CF4033 /* XCTest.framework */; };
+		D23CAC7219348DFD00CF4033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC4E19348DFD00CF4033 /* Foundation.framework */; };
+		D23CAC7319348DFD00CF4033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23CAC5219348DFD00CF4033 /* UIKit.framework */; };
+		D23CAC7B19348DFD00CF4033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23CAC7919348DFD00CF4033 /* InfoPlist.strings */; };
+		D23CAC7D19348DFD00CF4033 /* PayeTaPinteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23CAC7C19348DFD00CF4033 /* PayeTaPinteTests.m */; };
+		D23CAC8819348F4E00CF4033 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D23CAC8719348F4E00CF4033 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23CAC7419348DFD00CF4033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23CAC4319348DFD00CF4033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23CAC4A19348DFD00CF4033;
+			remoteInfo = PayeTaPinte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23CAC4B19348DFD00CF4033 /* PayeTaPinte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayeTaPinte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23CAC4E19348DFD00CF4033 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23CAC5019348DFD00CF4033 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23CAC5219348DFD00CF4033 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D23CAC5619348DFD00CF4033 /* PayeTaPinte-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayeTaPinte-Info.plist"; sourceTree = "<group>"; };
+		D23CAC5819348DFD00CF4033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23CAC5A19348DFD00CF4033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D23CAC5C19348DFD00CF4033 /* PayeTaPinte-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayeTaPinte-Prefix.pch"; sourceTree = "<group>"; };
+		D23CAC5D19348DFD00CF4033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D23CAC5E19348DFD00CF4033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D23CAC6119348DFD00CF4033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D23CAC6419348DFD00CF4033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D23CAC6619348DFD00CF4033 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D23CAC6719348DFD00CF4033 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D23CAC6919348DFD00CF4033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D23CAC6F19348DFD00CF4033 /* PayeTaPinteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayeTaPinteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23CAC7019348DFD00CF4033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D23CAC7819348DFD00CF4033 /* PayeTaPinteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PayeTaPinteTests-Info.plist"; sourceTree = "<group>"; };
+		D23CAC7A19348DFD00CF4033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23CAC7C19348DFD00CF4033 /* PayeTaPinteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayeTaPinteTests.m; sourceTree = "<group>"; };
+		D23CAC8619348F4E00CF4033 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D23CAC8719348F4E00CF4033 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23CAC4819348DFD00CF4033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC5119348DFD00CF4033 /* CoreGraphics.framework in Frameworks */,
+				D23CAC5319348DFD00CF4033 /* UIKit.framework in Frameworks */,
+				D23CAC4F19348DFD00CF4033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23CAC6C19348DFD00CF4033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC7119348DFD00CF4033 /* XCTest.framework in Frameworks */,
+				D23CAC7319348DFD00CF4033 /* UIKit.framework in Frameworks */,
+				D23CAC7219348DFD00CF4033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23CAC4219348DFD00CF4033 = {
+			isa = PBXGroup;
+			children = (
+				D23CAC5419348DFD00CF4033 /* PayeTaPinte */,
+				D23CAC7619348DFD00CF4033 /* PayeTaPinteTests */,
+				D23CAC4D19348DFD00CF4033 /* Frameworks */,
+				D23CAC4C19348DFD00CF4033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23CAC4C19348DFD00CF4033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC4B19348DFD00CF4033 /* PayeTaPinte.app */,
+				D23CAC6F19348DFD00CF4033 /* PayeTaPinteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23CAC4D19348DFD00CF4033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC4E19348DFD00CF4033 /* Foundation.framework */,
+				D23CAC5019348DFD00CF4033 /* CoreGraphics.framework */,
+				D23CAC5219348DFD00CF4033 /* UIKit.framework */,
+				D23CAC7019348DFD00CF4033 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23CAC5419348DFD00CF4033 /* PayeTaPinte */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC8919348F5A00CF4033 /* Vendors */,
+				D23CAC5D19348DFD00CF4033 /* AppDelegate.h */,
+				D23CAC5E19348DFD00CF4033 /* AppDelegate.m */,
+				D23CAC6019348DFD00CF4033 /* Main_iPhone.storyboard */,
+				D23CAC6319348DFD00CF4033 /* Main_iPad.storyboard */,
+				D23CAC6619348DFD00CF4033 /* ViewController.h */,
+				D23CAC6719348DFD00CF4033 /* ViewController.m */,
+				D23CAC6919348DFD00CF4033 /* Images.xcassets */,
+				D23CAC5519348DFD00CF4033 /* Supporting Files */,
+			);
+			path = PayeTaPinte;
+			sourceTree = "<group>";
+		};
+		D23CAC5519348DFD00CF4033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC5619348DFD00CF4033 /* PayeTaPinte-Info.plist */,
+				D23CAC5719348DFD00CF4033 /* InfoPlist.strings */,
+				D23CAC5A19348DFD00CF4033 /* main.m */,
+				D23CAC5C19348DFD00CF4033 /* PayeTaPinte-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23CAC7619348DFD00CF4033 /* PayeTaPinteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC7C19348DFD00CF4033 /* PayeTaPinteTests.m */,
+				D23CAC7719348DFD00CF4033 /* Supporting Files */,
+			);
+			path = PayeTaPinteTests;
+			sourceTree = "<group>";
+		};
+		D23CAC7719348DFD00CF4033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC7819348DFD00CF4033 /* PayeTaPinteTests-Info.plist */,
+				D23CAC7919348DFD00CF4033 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23CAC8919348F5A00CF4033 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC8A193490A300CF4033 /* Reachability */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		D23CAC8A193490A300CF4033 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D23CAC8619348F4E00CF4033 /* Reachability.h */,
+				D23CAC8719348F4E00CF4033 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23CAC4A19348DFD00CF4033 /* PayeTaPinte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23CAC8019348DFE00CF4033 /* Build configuration list for PBXNativeTarget "PayeTaPinte" */;
+			buildPhases = (
+				D23CAC4719348DFD00CF4033 /* Sources */,
+				D23CAC4819348DFD00CF4033 /* Frameworks */,
+				D23CAC4919348DFD00CF4033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayeTaPinte;
+			productName = PayeTaPinte;
+			productReference = D23CAC4B19348DFD00CF4033 /* PayeTaPinte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23CAC6E19348DFD00CF4033 /* PayeTaPinteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23CAC8319348DFE00CF4033 /* Build configuration list for PBXNativeTarget "PayeTaPinteTests" */;
+			buildPhases = (
+				D23CAC6B19348DFD00CF4033 /* Sources */,
+				D23CAC6C19348DFD00CF4033 /* Frameworks */,
+				D23CAC6D19348DFD00CF4033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23CAC7519348DFD00CF4033 /* PBXTargetDependency */,
+			);
+			name = PayeTaPinteTests;
+			productName = PayeTaPinteTests;
+			productReference = D23CAC6F19348DFD00CF4033 /* PayeTaPinteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23CAC4319348DFD00CF4033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					D23CAC4A19348DFD00CF4033 = {
+						DevelopmentTeam = AW39J7P4PL;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					D23CAC6E19348DFD00CF4033 = {
+						TestTargetID = D23CAC4A19348DFD00CF4033;
+					};
+				};
+			};
+			buildConfigurationList = D23CAC4619348DFD00CF4033 /* Build configuration list for PBXProject "PayeTaPinte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23CAC4219348DFD00CF4033;
+			productRefGroup = D23CAC4C19348DFD00CF4033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23CAC4A19348DFD00CF4033 /* PayeTaPinte */,
+				D23CAC6E19348DFD00CF4033 /* PayeTaPinteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23CAC4919348DFD00CF4033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC6519348DFD00CF4033 /* Main_iPad.storyboard in Resources */,
+				D23CAC6A19348DFD00CF4033 /* Images.xcassets in Resources */,
+				D23CAC6219348DFD00CF4033 /* Main_iPhone.storyboard in Resources */,
+				D23CAC5919348DFD00CF4033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23CAC6D19348DFD00CF4033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC7B19348DFD00CF4033 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23CAC4719348DFD00CF4033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC6819348DFD00CF4033 /* ViewController.m in Sources */,
+				D23CAC5F19348DFD00CF4033 /* AppDelegate.m in Sources */,
+				D23CAC8819348F4E00CF4033 /* Reachability.m in Sources */,
+				D23CAC5B19348DFD00CF4033 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23CAC6B19348DFD00CF4033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23CAC7D19348DFD00CF4033 /* PayeTaPinteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23CAC7519348DFD00CF4033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23CAC4A19348DFD00CF4033 /* PayeTaPinte */;
+			targetProxy = D23CAC7419348DFD00CF4033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23CAC5719348DFD00CF4033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23CAC5819348DFD00CF4033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D23CAC6019348DFD00CF4033 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23CAC6119348DFD00CF4033 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D23CAC6319348DFD00CF4033 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23CAC6419348DFD00CF4033 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D23CAC7919348DFD00CF4033 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23CAC7A19348DFD00CF4033 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23CAC7E19348DFE00CF4033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D23CAC7F19348DFE00CF4033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23CAC8119348DFE00CF4033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maxime Berthelot (AW39J7P4PL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayeTaPinte/PayeTaPinte-Prefix.pch";
+				INFOPLIST_FILE = "PayeTaPinte/PayeTaPinte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D23CAC8219348DFE00CF4033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maxime Berthelot (AW39J7P4PL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayeTaPinte/PayeTaPinte-Prefix.pch";
+				INFOPLIST_FILE = "PayeTaPinte/PayeTaPinte-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D23CAC8419348DFE00CF4033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayeTaPinte.app/PayeTaPinte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayeTaPinte/PayeTaPinte-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PayeTaPinteTests/PayeTaPinteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D23CAC8519348DFE00CF4033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PayeTaPinte.app/PayeTaPinte";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayeTaPinte/PayeTaPinte-Prefix.pch";
+				INFOPLIST_FILE = "PayeTaPinteTests/PayeTaPinteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23CAC4619348DFD00CF4033 /* Build configuration list for PBXProject "PayeTaPinte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23CAC7E19348DFE00CF4033 /* Debug */,
+				D23CAC7F19348DFE00CF4033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23CAC8019348DFE00CF4033 /* Build configuration list for PBXNativeTarget "PayeTaPinte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23CAC8119348DFE00CF4033 /* Debug */,
+				D23CAC8219348DFE00CF4033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23CAC8319348DFE00CF4033 /* Build configuration list for PBXNativeTarget "PayeTaPinteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23CAC8419348DFE00CF4033 /* Debug */,
+				D23CAC8519348DFE00CF4033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23CAC4319348DFD00CF4033 /* Project object */;
+}
